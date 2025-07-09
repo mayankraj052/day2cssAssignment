@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Red Header */
+.header {
+    height: 100px;
+    background-color: red;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* Centered Main Title */
+.main-title {
+    text-align: center;
+    background-color: #faebd6;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 8px;
+}
+
+/* Outer Wrapper */
+.wrapper {
+    background-color: aquamarine;
+    padding: 25px 8px;
+    margin:0px 10px;
+    margin-bottom: 20px;
+}
+
+/* Main content container */
+.main-content {
+    background-color: cadetblue;
+    position: relative;
+    height: 320px;
+}
+
+/* Blue Box - Left */
+.blue-box {
+    width: 300px;
+    height: 320px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Yellow Box - Top of Blue */
+.yellow-box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+/* Green Box - Bottom Right */
+.green-box {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
