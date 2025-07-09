@@ -19,6 +19,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     padding: 15px 8px;
+    margin: 9px 8px;
 }
 
 /* Outer Wrapper */
@@ -38,7 +39,7 @@ body {
 
 /* Blue Box - Left */
 .blue-box {
-    width: 300px;
+    width: 330px;
     height: 320px;
     background-color: blue;
     position: absolute;
@@ -53,7 +54,7 @@ body {
     background-color: yellow;
     position: absolute;
     top: 0px;
-    left: 300px;
+    left: 330px;
 }
 
 /* Green Box - Bottom Right */
